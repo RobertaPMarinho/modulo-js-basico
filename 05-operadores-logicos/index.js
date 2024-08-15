@@ -9,7 +9,47 @@
 >= ---maior igual que--- a >= b --- verdadeiro quando a for maior ou igual a b
 */ 
 
+/*
 const a = 3
 const b = 10
 
 console.log(a >= b)
+*/
+
+//AND
+
+const a = 2
+const b = 2
+
+console.log(a === b && a <= b)
+// V e V = V (true)
+
+console.log(a === b && a < b)
+// V e F = F (false)
+
+console.log(a > b && a === b)
+// F e V = F (false)
+
+console.log(a > b && a < b)
+// F e F = F (false))
+
+
+//OR
+
+console.log(a === b || a <= b)
+// V e V = V (true)
+
+console.log(a === b || a < b)
+// V e F = F (false)
+
+console.log(a > b || a === b)
+// F e V = V (true)
+
+console.log(a > b || a < b)
+// F e F = F (false)
+
+//NOT
+
+console.log(a === b)
+
+console.log(!(a === b))
