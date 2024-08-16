@@ -14,7 +14,7 @@ function nomeDaFuncao(parametro1, parametro2) {
 nomeDaFuncao(parametro1, parametro2)
 */
 
-function incentivarQuester(nomeQuester) {
+function incentivarQuester(nomeQuester = 'Quester') {
   alert('Muito bem ' + nomeQuester +' , você chegou ao JS, continue assim')
 }
 
